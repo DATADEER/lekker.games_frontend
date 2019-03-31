@@ -1,6 +1,6 @@
 <template>
     <section v-if="isLoading" class="w-full flex justify-center">
-        <svg class="w-16 car-animation" id="delorean-svg" fill="#FFFFFF" width="300pt" height="300pt" version="1.1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+        <!--<svg class="w-16 car-animation" id="delorean-svg" fill="#FFFFFF" width="300pt" height="300pt" version="1.1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
             <path d="m79.52 51.941c-3.5078 0-6.3555 2.8477-6.3555 6.3555s2.8477 6.3516 6.3555 6.3516c3.5078 0 6.3555-2.8438 6.3555-6.3516s-2.8477-6.3555-6.3555-6.3555zm0 10.828c-2.4727 0-4.4766-2.0039-4.4766-4.4727 0-2.4727 2.0039-4.4766 4.4766-4.4766 2.4727 0 4.4766 2.0039 4.4766 4.4766s-2.0039 4.4727-4.4766 4.4727z"/>
             <path d="m23.176 50.273c-4.1055 0-7.4375 3.332-7.4375 7.4375 0 4.1055 3.3281 7.4375 7.4375 7.4375 4.1055 0 7.4375-3.3281 7.4375-7.4375 0-4.1055-3.332-7.4375-7.4375-7.4375zm0 12.164c-2.6094 0-4.7266-2.1133-4.7266-4.7266 0-2.6094 2.1172-4.7266 4.7266-4.7266s4.7305 2.1172 4.7305 4.7266c0 2.6133-2.1211 4.7266-4.7305 4.7266z"/>
             <path d="m72.543 59.457-3.957 1.7109h-33.586l-2.918-1.5v-1.3711l40.695-0.12891z"/>
@@ -91,7 +91,7 @@
             <path d="m81.48 54.898-0.33984 0.58594" fill="none" stroke="#FFFFFF" stroke-miterlimit="10" stroke-width=".2201"/>
             <path d="m80.859 54.609-0.23047 0.63672" fill="none" stroke="#FFFFFF" stroke-miterlimit="10" stroke-width=".2201"/>
             <path d="m80.199 54.434-0.12109 0.66797" fill="none" stroke="#FFFFFF" stroke-miterlimit="10" stroke-width=".2201"/>
-        </svg>
+        </svg>-->
         <h3 class="text-center text-white animated flash infinite my-6">LOADING</h3>
     </section>
 </template>
