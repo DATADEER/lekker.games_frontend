@@ -1,5 +1,7 @@
 # lekker.games_frontend
 
+![home page](src/assets/img/screenshots/home.png)
+
 This is the frontend of a game recommendation engine. It still in development and currently only usable with mocked data via a [mocked API](https://github.com/DATADEER/lekker.games_mocked_api).
 
 Run the [mocked API](https://github.com/DATADEER/lekker.games_mocked_api) with `node index.js` on http://localhost:4000
@@ -32,3 +34,13 @@ The input field on http://localhost:8080/#/mygames takes the follwing **values**
 * `2` = [ERROR] profile is public but user has no games
 
 The frontend runs on http://localhost:8080
+
+# Screenshots
+
+![home page](src/assets/img/screenshots/input.png)
+
+![home page](src/assets/img/screenshots/confirm.png)
+
+![home page](src/assets/img/screenshots/select.png)
+
+![home page](src/assets/img/screenshots/result.png)
