@@ -1,6 +1,6 @@
 # lekker.games_frontend
 
-![home page](src/assets/img/screenshots/home.png)
+![frontend logo](frontend.png)
 
 This is the frontend of a game recommendation engine. It still in development and currently only usable with mocked data via a [mocked API](https://github.com/DATADEER/lekker.games_mocked_api).
 
@@ -36,6 +36,8 @@ The input field on http://localhost:8080/#/mygames takes the follwing **values**
 The frontend runs on http://localhost:8080
 
 # Screenshots
+
+![home page](src/assets/img/screenshots/home.png)
 
 ![home page](src/assets/img/screenshots/input.png)
 
