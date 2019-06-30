@@ -1,18 +1,15 @@
 <template>
-    <img class="lenny" src="@/assets/img/meme/lenny.svg" />
+  <img class="lenny" src="@/assets/img/meme/lenny.svg" />
 </template>
 
 <script>
-    export default {
-        name: "lenny",
-        data() {
-            return {}
-        },
-        methods: {}
-    }
+export default {
+  name: "lenny",
+  data() {
+    return {};
+  },
+  methods: {}
+};
 </script>
 
-<style lang="scss" scoped>
-
-
-</style>
+<style lang="scss" scoped></style>
