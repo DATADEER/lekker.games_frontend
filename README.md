@@ -8,6 +8,8 @@ Run the [mocked API](https://github.com/DATADEER/lekker.games_mocked_api) with `
 
 And run this repository with `npm run serve` on port http://localhost:8080
 
+or check out the [Live Demo](https://demo.lekker.games) enviroment using mocked data.
+
 
 ## Project setup
 ```
