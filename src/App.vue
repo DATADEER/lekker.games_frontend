@@ -4,6 +4,28 @@
   </div>
 </template>
 
+<script>
+import axios from "axios";
+
+export default {
+  name: "App",
+  methods: {
+    wakeUpAPI() {
+      return axios.get("/api/wakeup");
+    }
+  },
+  created() {
+    this.wakeUpAPI()
+      .then(data => {
+        console.log(data.data);
+      })
+      .catch(() => {
+        console.log("API does not respond ⚠️");
+      });
+  }
+};
+</script>
+
 <style lang="scss">
 @tailwind preflight;
 
