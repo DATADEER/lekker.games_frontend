@@ -328,8 +328,14 @@ export default {
       this.steamUser = steamUser;
     },
     fetchAllUserInformationBySteamID(steamID) {
+      const timeoutId = setTimeout(() => {
+        this.isLoading = true;
+      }, 1000);
+
       Promise.all([fetchSteamUserProfile(steamID), fetchOwnedGames(steamID)])
         .then(result => {
+          clearTimeout(timeoutId);
+          this.isLoading = false;
           const player = result[0].data.response.players[0];
           this.saveUserInformation(player);
 
@@ -337,6 +343,8 @@ export default {
           this.saveOwnedGames(steamID, ownedGamesResponse);
         })
         .catch(error => {
+          clearTimeout(timeoutId);
+          this.isLoading = false;
           console.error(error);
         });
     },
@@ -375,17 +383,6 @@ export default {
     isGamesListSet() {
       return !_.isEmpty(this.steamUser.games);
     }
-  },
-  created() {
-    axios.interceptors.request.use(config => {
-      this.isLoading = true;
-      return config;
-    });
-
-    axios.interceptors.response.use(config => {
-      this.isLoading = false;
-      return config;
-    });
   }
 };
 </script>
