@@ -1,4 +1,7 @@
 <script>
+
+    import _  from "lodash";
+
     export default {
         name: "utils",
         data() {
