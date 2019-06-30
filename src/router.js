@@ -9,11 +9,14 @@ import Search from "./views/Search.vue";
 import Result from "./views/Result.vue";
 import LoadingGameData from "./views/LoadingGameData.vue";
 import GetUserData from "./views/GetUserData.vue";
+import Error404 from "./views/Error404.vue";
 
 Vue.use(Router);
 
 export default new Router({
+  mode: "history",
   routes: [
+    { path: "*", component: Error404 },
     {
       path: "/",
       name: "home",
