@@ -155,7 +155,7 @@ export default {
       messageCounter: 0,
       currentMessageComponent: qaList,
       currentMessageText: qaMessages,
-      steamUserID: "",
+      steamUserID: "DEMO",
       steamUser: {
         profile: {},
         games: {},
